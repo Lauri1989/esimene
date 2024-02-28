@@ -1,5 +1,6 @@
-import "./Luuletus"
-import Luuletus from '../src/Luuletus';
+
+import Luuletus from './Raamat';
+import Raamat from "./raamat.jpg";
 
 function App() {
   return (
