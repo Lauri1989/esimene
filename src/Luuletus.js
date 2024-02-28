@@ -1,13 +1,12 @@
-function Luuletus() {
+function Raamat() {
     return (
         <div>
-            
-            <p>Kes hommikuti külas käib,</p>
-            <p>see asjatult ei longi</p>
-            <p>tidilipomm</p>
-            <p>sest selleks hommik ongi!</p>
+
+            <p> Ilmumisaasta - 2020</p>
+            <p>Autor - Andrus Kivirähk</p>
+            <p></p>
         </div>
     )
 }
 
-export default Luuletus
+export default Raamat
