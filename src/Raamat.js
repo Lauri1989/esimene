@@ -2,8 +2,8 @@ function Raamat() {
     return (
         <div>
 
-            <p> Ilmumisaasta - 2020</p>
-            <p>Autor - Andrus Kivirähk</p>
+            <h2> Ilmumisaasta - 2020</h2>
+            <h2>Autor - Andrus Kivirähk</h2>
             <p></p>
         </div>
     )
