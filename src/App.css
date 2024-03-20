@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-top: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  display: flex;
+  box-shadow: 5px 5px 18px black;
+  background-color:darkseagreen;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  cursor: pointer;
+  margin-left: 2rem;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li:hover {
+  background-color: darkseagreen;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.books-list {
+  margin: 1rem;
+  max-width: 20rem;
+}
+
+.book-details {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-left: 1px solid #144951;
+  display: flex;
+  justify-content: center;
+  width: 28rem;
+}
+
+.book-details img {
+  max-width: 15rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;  
+}
+
+.book {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.addBook {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-top: 5px solid darkseagreen;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addBook input {
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+    background-color:khaki;
 }
+
+.addBook input:focus-visible {
+  outline: black auto 1px;
+}
+
+.addBook button {
+  margin-top: 1rem;
+  height: 2rem;
+  background-color: #144951;;
+  color: #ffffff;
+  border: 1px solid arkseagreen;
+  border-radius: 0.5rem;
+  background-color: #144951;
+  border-radius:15px;
+}
+
+.addBook button:hover {
+  border: 1px solid #144951;
+  background-color: darkseagreen;
+  color: black;
+}
+
+.addBook input::placeholder {
+  padding-left: 0.5rem;
+}
+
+p {
+  padding-top: 0.5rem;
+}
+
